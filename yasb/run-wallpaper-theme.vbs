@@ -1,2 +1,9 @@
 Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run "powershell.exe -ExecutionPolicy Bypass -NoProfile -File ""$env:USERPROFILE\.config\yasb\wallpaper-theme.ps1""", 0, False
+
+' Dynamically resolve the current user's profile path via VBScript
+Dim userProfile, scriptPath
+userProfile = WshShell.ExpandEnvironmentStrings("%USERPROFILE%")
+scriptPath = userProfile & "\.config\yasb\wallpaper-theme.ps1"
+
+' Execute PowerShell using the fully resolved absolute path
+WshShell.Run "powershell.exe -ExecutionPolicy Bypass -NoProfile -File """ & scriptPath & """", 0, False
