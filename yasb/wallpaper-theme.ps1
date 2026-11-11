@@ -1,7 +1,7 @@
 # Watches the Windows wallpaper. When it changes, copies wallpaper-themes\<wallpaper name>.css
 # over theme.css so YASB reloads with colors generated from that wallpaper.
 # Wallpapers without a matching theme file leave the current theme untouched.
-$cfg = "C:\Users\jonat\.config\yasb"
+$env:USERPROFILE\.config\yasb
 
 $last = ""
 while ($true) {
