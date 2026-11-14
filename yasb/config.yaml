@@ -278,11 +278,9 @@ widgets:
       show_battery: false
       show_in_popup: 1
       show_volume: false
-      show_network: true
-      use_hook: true
+      use_hook: false
       icons_per_row: 3
       show_network: false
-      use_hook: false # Whether to use the new systray hook instead of the legacy systray monitor
       hide_icons: [] # Optional, list of process names to hide (e.g. ["discord"])
       popup:
         blur: false
