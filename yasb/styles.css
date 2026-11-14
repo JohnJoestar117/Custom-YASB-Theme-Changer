@@ -147,7 +147,7 @@
 .widget .icon {
     font-size: var(--iconSize);
     font-weight: var(--fontWeight);
-    color: var(--yasb-icon-fg);
+    color: var(--text);
     font-family: var(--icons-font-fallback);
 }
 
@@ -354,7 +354,7 @@
     font-size: 14px;
     font-family: var(--system-font);
     font-weight: var(--fontWeight);
-    color: var(--text-muted);
+    color: var(--subtext);
     background-color: var(--background2);
     border: 1px solid transparent;
     border-radius: 4px;
