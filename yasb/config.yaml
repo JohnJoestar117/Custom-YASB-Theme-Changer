@@ -76,7 +76,7 @@ widgets:
       - title: Pictures
         path: ~\Pictures
       - title: Wallpapers
-        path: C:\Users\jonat\Pictures\Walllpapers
+        path: ~\Pictures\Wallpapers
       system_menu: true
       power_menu: false
       blur: false
@@ -297,7 +297,7 @@ widgets:
       label: "<span>\udb83\udc8d</span>"
       change_automatically: false
     # Example path to folder with images. Can be a single string or a list of strings.
-      image_path: "C:\\Users\\jonat\\Pictures\\Walllpapers"
+      image_path: "C:\\Users\\<you>\\Pictures\\Wallpapers"
       engine:
         enabled: true
         animation: "slide_top" # circle/slide_top/diamond/split
