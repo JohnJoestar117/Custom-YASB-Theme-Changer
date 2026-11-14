@@ -1004,7 +1004,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 /* Search loader line color */
 .quick-launch-popup .search .loader-line {
-	color: #449bff;
+	color: var(--subtext);
 }
 .quick-launch-popup .search .search-icon {
 	font-family: var(--icons-font);
@@ -1030,7 +1030,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 /* Search prefix styling (e.g., ">" for commands) */
 .quick-launch-popup .search .prefix {
-	background: #2167d8;
+	background: var(--accent);
 	border-radius: 6px;
 	color: var(--text);
 	padding: -2px 8px 0px 8px;
